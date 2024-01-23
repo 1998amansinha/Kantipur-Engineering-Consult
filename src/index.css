@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 
 :root {
   --font-header: 'Outfit', sans-serif;
-  --font-para: 'Barlow', sans-serif;
+  --font-para: 'Cormorant Upright', serif;
 
   --color-bg: #c1dee8;
   --color-text: #3e3242;
+  --color-white: #FFFFFF;
 
-  --color-head: #131313;
+  --color-hover: #4fa1be;
+
+  --color-black: #131313;
   /* --color-subtext: ""; */
 }

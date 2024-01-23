@@ -6,12 +6,73 @@
 }
 
 body {
-  background: var(--color-bg);
+  background: var(--color-black);
 }
 
 a {
   color: unset;
   text-decoration: none;
+}
+
+
+
+.app__wrapper_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+
+.app__wrapper_img img {
+  width: 80%;
+}
+
+.custom__button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-head);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  /* border-radius: 8px; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.p__header {
+  font-family: var(--font-para);
+  color: var(--color-black);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 23px;
+}
+
+.p__para {
+  font-family: var(--font-para);
+  color: var(--color-black);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.h__headtext {
+  font-family: var(--font-header);
+  color: var(--color-black);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
 }
 
 .gradient__bg {
@@ -47,11 +108,11 @@ a {
 }
 
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 2rem 2rem;
 }
 
 .section__margin {
-  margin: 4rem 6rem;
+  margin: 2rem 4rem;
 }
 
 .scale-up-center {
@@ -84,22 +145,81 @@ a {
   }
 }
 
+@media screen and (min-width: 2000px) {
+
+  .custom__button,
+  .p__cormorant {
+    font-size: 37px;
+    line-height: 67px;
+  }
+
+  .p__opensans {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .headtext__cormorant {
+    font-size: 150px;
+    line-height: 210px;
+  }
+
+}
+
+@media screen and (max-width: 1150px) {
+  .app__wrapper {
+    flex-direction: column;
+  }
+
+  .app__wrapper_img {
+    margin: 5rem 0 0 0;
+  }
+
+  .app__wrapper_img-reverse {
+    margin: 0 0 5rem 0;
+  }
+
+  .app__wrapper_img img {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .section__padding {
-    padding: 4rem;
+    padding: 2rem;
   }
 
   .section__margin {
     margin: 4rem;
   }
+
+  .p__cormorant {
+    font-size: 21px;
+  }
+
+  .p__opensans {
+    font-size: 14px;
+  }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .section__margin {
     margin: 4rem 2rem;
+  }
+
+  .p__para {
+    font-size: 12px;
+  }
+
+  .p__header {
+    font-size: 19px;
+  }
+
+  .h__headtext{
+    font-size: 45px;
+    line-height: 70px;
   }
 }

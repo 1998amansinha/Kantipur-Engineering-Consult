@@ -9,17 +9,15 @@ import './App.css';
 const App = () => {
   return (
     <div>
-        <Navbar />
-      {/* <div className='gradient__bg'> */}
-        <Header />
-      {/* </div> */}
+      <Navbar />
+      <Header />
       <Features />
       <Projects />
       <Gallery />
       <Teams />
       {/* <div className="gradient__bg"> */}
-        <Location />
-        <About />
+      <Location />
+      <About />
       {/* </div> */}
       <Footer />
 
