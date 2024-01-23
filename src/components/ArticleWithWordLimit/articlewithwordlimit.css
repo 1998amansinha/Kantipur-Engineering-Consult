@@ -1,0 +1,7 @@
+.custom__button:hover {
+    border-radius: 10px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    cursor: pointer;
+    transition: 0.8s ease;
+}

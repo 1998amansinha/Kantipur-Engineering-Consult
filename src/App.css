@@ -45,6 +45,21 @@ a {
   cursor: pointer;
 }
 
+.custom__button button:hover {
+  border-radius: 10px;
+  background-color: #4fa1be;
+  color: #000;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+
+.custom__button :hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  transition: 0.5s ease;
+  border: 2px solid black;
+}
+
 .p__header {
   font-family: var(--font-para);
   color: var(--color-black);
@@ -53,7 +68,7 @@ a {
   text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
-  font-size: 23px;
+  font-size: 26px;
 }
 
 .p__para {
@@ -67,7 +82,7 @@ a {
 }
 
 .h__headtext {
-  font-family: var(--font-header);
+  font-family: var(--font-para);
   color: var(--color-black);
   font-size: 64px;
   line-height: 83.2px;
@@ -76,6 +91,7 @@ a {
 }
 
 .gradient__bg {
+  border-radius: 10px;
   background: -moz-radial-gradient(circle at 0% 100%, rgba(193, 222, 232, 1) 0%, rgba(251, 217, 185, 1) 100%);
 
   /* safari 5.1+,chrome 10+ */
@@ -92,19 +108,21 @@ a {
 }
 
 .gradient__box {
-  background: -moz-radial-gradient(circle at 116% 0%, rgba(193, 222, 232, 0.7) 1%, rgba(255, 255, 255, 0) 51%, rgba(251, 217, 185, 0.7) 100%);
+  border-radius: 20px;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 0% 100%, rgba(173, 133, 116, 0.56) 0%, rgba(103, 72, 103, 1) 100%);
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 116% 0%, rgba(193, 222, 232, 0.7) 1%, rgba(255, 255, 255, 0) 51%, rgba(251, 217, 185, 0.7) 100%);
+  background: -webkit-radial-gradient(circle at 0% 100%, rgba(173, 133, 116, 0.56) 0%, rgba(103, 72, 103, 1) 100%);
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 116% 0%, rgba(193, 222, 232, 0.7) 1%, rgba(255, 255, 255, 0) 51%, rgba(251, 217, 185, 0.7) 100%);
+  background: -o-radial-gradient(circle at 0% 100%, rgba(173, 133, 116, 0.56) 0%, rgba(103, 72, 103, 1) 100%);
 
   /* ie 10+ */
-  background: -ms-radial-gradient(circle at 116% 0%, rgba(193, 222, 232, 0.7) 1%, rgba(255, 255, 255, 0) 51%, rgba(251, 217, 185, 0.7) 100%);
+  background: -ms-radial-gradient(circle at 0% 100%, rgba(173, 133, 116, 0.56) 0%, rgba(103, 72, 103, 1) 100%);
 
   /* global 92%+ browsers support */
-  background: radial-gradient(circle at 116% 0%, rgba(193, 222, 232, 0.7) 1%, rgba(255, 255, 255, 0) 51%, rgba(251, 217, 185, 0.7) 100%);
+  background: radial-gradient(circle at 0% 100%, rgba(173, 133, 116, 0.56) 0%, rgba(103, 72, 103, 1) 100%);
 }
 
 .section__padding {
@@ -185,11 +203,11 @@ a {
 
 @media screen and (max-width: 700px) {
   .section__padding {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .section__margin {
-    margin: 4rem;
+    margin: 1rem;
   }
 
   .p__cormorant {
@@ -203,11 +221,11 @@ a {
 
 @media screen and (max-width: 450px) {
   .section__padding {
-    padding: 2rem 2rem;
+    padding: 1rem;
   }
 
   .section__margin {
-    margin: 4rem 2rem;
+    margin: 1rem;
   }
 
   .p__para {

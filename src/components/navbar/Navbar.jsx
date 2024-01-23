@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="kec__navbar-links_container ">
           <p><a href="#home">Home</a></p>
           <p><a href="#about">About</a></p>
-          <p><a href="#services">Services</a></p>
+          <p><a href="#Features">Services</a></p>
           <p><a href="#projects">Projects</a></p>
           <p><a href="#gallery">Contact Us</a></p>
         </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
               <div className="kec__navbar-menu_container-links">
                 <p><a href="#home">Home</a></p>
                 <p><a href="#about">About</a></p>
-                <p><a href="#services">Services</a></p>
+                <p><a href="#Features">Services</a></p>
                 <p><a href="#projects">Projects</a></p>
                 <p><a href="#gallery">Contact Us</a></p>
               </div>
