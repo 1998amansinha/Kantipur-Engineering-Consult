@@ -36,7 +36,7 @@ const Gallery = () => {
 
         <div className="kec__gallery-content ">
           <h1 className="h__headtext">Photo Gallery</h1>
-          <p className='p__para section__padding'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, nemo?</p>
+          <p className='p__para'>Collection Of Our Projects</p>
 
           <div className="kec__gallery-images section__padding">
             <div className="kec__gallery-images_container" ref={scrollRef}>
