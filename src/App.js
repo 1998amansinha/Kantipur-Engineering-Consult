@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Navbar, About, Location } from './components'
-import { Features, Footer, Gallery, Header, Projects, Teams, } from './containers'
+import { Features, Footer, Gallery, Header, Projects, Teams } from './containers'
 
 import './App.css';
 
