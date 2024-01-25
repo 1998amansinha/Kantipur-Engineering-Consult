@@ -14,7 +14,7 @@ const App = () => {
       <Features />
       <Projects />
       <Gallery />
-      <Teams />
+      {/* <Teams /> */}
       {/* <div className="gradient__bg"> */}
       <Location />
       <About />

@@ -32,7 +32,7 @@ const Gallery = () => {
 
   return (
     <div className="kec__gallery section__padding">
-      <div className="kec__gallery-container section__padding gradient__bg " >
+      <div className="kec__gallery-container gradient__bg section__padding  " >
 
         <div className="kec__gallery-content ">
           <h1 className="h__headtext">Photo Gallery</h1>

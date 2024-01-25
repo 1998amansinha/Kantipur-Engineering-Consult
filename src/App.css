@@ -6,15 +6,13 @@
 }
 
 body {
-  background: var(--color-black);
+  background: var(--color-white);
 }
 
 a {
   color: unset;
   text-decoration: none;
 }
-
-
 
 .app__wrapper_img {
   flex: 1;
