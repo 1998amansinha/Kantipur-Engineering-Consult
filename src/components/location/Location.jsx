@@ -8,8 +8,8 @@ const Location = () => {
   // Organize contact information in an array
   const contactInfo = [
     { label: '+977 9862500112', link: 'tel:+9779862500112' },
-    { label: '+977 9861568775', link: 'tel:+9779861568775' },
-    { label: '+977 9804375944', link: 'tel:+9779804375944' },
+    { label: '+977 9804046649', link: 'tel:+9779804046649' },
+    { label: '+977 9852066901', link: 'tel:+9779852066901' },
   ];
 
   return (

@@ -1,0 +1,24 @@
+.kec__projects-container .p__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kec__projects-container_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kec__box2 {
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.kec__box2 img {
+    max-width: 100%;
+    height: 30vh;
+    padding: 1rem;
+}
+

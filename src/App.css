@@ -6,7 +6,7 @@
 }
 
 body {
-  background: var(--color-white);
+  background: var(--color-black);
 }
 
 a {
@@ -121,6 +121,14 @@ a {
 
   /* global 92%+ browsers support */
   background: radial-gradient(circle at 0% 100%, rgba(173, 133, 116, 0.56) 0%, rgba(103, 72, 103, 1) 100%);
+}
+
+.gradient__box:hover {
+  background: radial-gradient(
+    circle at 0% 100%,
+    rgba(103, 72, 103, 1) 0%,
+    rgba(173, 133, 116, 0.56) 100%
+  );
 }
 
 .section__padding {
