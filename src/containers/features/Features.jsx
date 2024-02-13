@@ -4,8 +4,8 @@ import ArticleWithWordLimit from '../../components/ArticleWithWordLimit/ArticleW
 import image1 from '../../assets/Image1.jpg';
 import image2 from '../../assets/Image2.jpg';
 import image3 from '../../assets/Image3.jpg';
-import image4 from '../../assets/Image4.jpg';
-import image5 from '../../assets/Image5.jpg';
+// import image4 from '../../assets/Image4.jpg';
+// import image5 from '../../assets/Image5.jpg';
 
 
 import './features.css';
@@ -15,6 +15,7 @@ const Features = () => {
     <div className="kec__features section__padding" id='Features'>
       <div className="gradient__bg section__padding">
         <h1 className='h__headtext'>Our Services</h1>
+        <p className="p__para">Think of our services as brushstrokes on the canvas of your life or business. With each stroke, we add depth, color, and dimension, transforming the ordinary into the extraordinary. Let us paint a masterpiece together with our bespoke services.</p>
         <div className="kec__features-container section__padding">
 
           <div className="kec__features-container_content gradient__box section__padding section__margin">
