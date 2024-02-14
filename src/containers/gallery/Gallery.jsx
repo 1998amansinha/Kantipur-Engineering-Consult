@@ -8,7 +8,6 @@ import {
   Image7,
   Image8,
   Image9,
-  Image10,
   Image11,
   Image12,
   Image13,
