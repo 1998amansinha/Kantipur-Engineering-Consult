@@ -11,7 +11,7 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">Kantipur Engineering Consult, Main Road, Sani Haat, Biratnagar-2</p>
         <p className="p__opensans">+977 9862500112</p>
-        <p className="p__opensans">+977 9804046649</p>
+        <p className="p__opensans">+977 9804046549</p>
         <p className="p__opensans">+977 9852066901</p>
         <p className="p__opensans">+977 9804375944</p>
       </div>
@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2005 Kantipur Engineering Consult. All Rights reserved.</p>
+      <p className="p__opensans">Kantipur Engineering Consult. All Rights reserved.</p>
     </div>
   </footer>
 );

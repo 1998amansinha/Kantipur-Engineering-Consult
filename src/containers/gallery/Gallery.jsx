@@ -4,10 +4,10 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import {
   Image4,
   Image5,
-  Image6,
   Image7,
   Image8,
   Image9,
+  Image10,
   Image11,
   Image12,
   Image13,
@@ -39,7 +39,7 @@ const Gallery = () => {
 
           <div className="kec__gallery-images section__padding">
             <div className="kec__gallery-images_container" ref={scrollRef}>
-              {[Image4, Image5, Image6, Image7, Image8, Image9, Image11, Image12, Image13, Image14, Image15].map((images, index) => (
+              {[Image4, Image5, Image7, Image8, Image9,Image10, Image11, Image12, Image13, Image14, Image15].map((images, index) => (
                 <div className="kec__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
                   <img src={images} alt="gallery_image" />
                 </div>

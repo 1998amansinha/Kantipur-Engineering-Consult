@@ -3,7 +3,7 @@ import "./about.css";
 
 const About = () => {
   // Assuming establishment year and number of projects are dynamic data
-  const establishmentYear = 2005;
+  // const establishmentYear = 2005;
   const numberOfProjectsCompleted = 30; // Just an example number
 
   return (
@@ -13,8 +13,7 @@ const About = () => {
         <div className="about__content">
           <div className="about__text">
             <p className="about__description p__para">
-              Kantipur Engineering Consult, established in {establishmentYear},
-              is a leading engineering firm dedicated to providing innovative
+              Kantipur Engineering Consult, is a leading engineering firm dedicated to providing innovative
               solutions for our clients. With a team of experienced
               professionals and a commitment to excellence, we have completed
               over {numberOfProjectsCompleted} projects that exceed
