@@ -1,33 +1,104 @@
+/* Your existing CSS */
+
 .app__footer-links {
-    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 .app__footer-links_contact {
+    flex: 1;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items:flex-start;
 }
 
-.app__footer-links_icons {
+.app__footer-links_contact h1,
+.app__footer-links_work h1 {
+    margin-bottom: 1rem;
+}
+
+.app__footer-links_contact p,
+.app__footer-links_work p {
+    padding: 5px;
+}
+
+.app__footer-links_logo {
+    flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .app__footer-links_icons a {
-    padding: 1rem;
+    font-size: 2rem;
+    margin: 0 5px;
+    color: #333;
+    transition: color 0.3s;
+}
 
+.app__footer-links_icons a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    height: 10vh;
+    width: 4vw;
+    border-radius: 10px;
+    background-color: #4fa1be;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.app__footer-links_logo p {
+    padding-bottom: 2rem;
 }
 
 .app__footer-links_work {
+    flex: 1;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.app__footer-links_icons {
+    display: flex;
+}
+
+.footer__copyright {
+    color: var(--color-white);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 1050px) {
+    .app__footer-links {
+        flex-direction: column;
+    }
+
+    .app__footer-links_contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__footer-links_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .app__footer-links_work {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }
